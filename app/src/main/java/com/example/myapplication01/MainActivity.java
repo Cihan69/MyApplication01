@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void listData() {
 
+
         VeriTabani db = new VeriTabani(getApplicationContext());
 
         List<Ogrenci> ogrenciList = new ArrayList<Ogrenci>();
